@@ -1,0 +1,86 @@
+header {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 26px;
+    line-height: 2;
+    background-color: green;
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    font-family:Arial, Helvetica, sans-serif, Courier, monospace;
+    font-size: 20px;
+    background-color: green;
+    color:white;
+    padding: 22.5px;"
+    position: relative;
+}
+
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+main {
+    background-color: #1a12fd;
+    color:white;
+    position: relative;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 600px;
+    max-height: 600px;
+    padding: 20px;
+    min-height: calc(100vh - 160px);
+}
+
+a {
+    font-size: 25px;
+    position: relative;
+    top: 50%;
+    left: 36%;
+}
+
+p {
+    font-size: 22px;
+}
+
+ul {
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+.words-container i,
+.words-container b,
+.words-container u,
+.words-container del {
+    text-align: left;
+    line-height: 1.5;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.red_class {
+    color: red;
+}
+
+.spaced {
+    font-size: 35px;
+    white-space: pre; /* сохраняет пробелы */
+}
+
+td {
+    border:2px solid gray;text-align: center; vertical-align:bottom;
+}
+
+
